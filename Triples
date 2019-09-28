@@ -1,0 +1,8 @@
+#code will accept numbers and triple them
+def mylist(evens): #define function, name it mylist, create argument called evens
+    for numbers in evens:  # for loop - for each number in argument it will multiply numbers by 3
+        triple = numbers * 3  # store tripled numbers in variable called triple
+        print triple    # print triple to screen
+
+mylist([2.0, 4.2, 6.6])
+mylist([6, 8, 10])
